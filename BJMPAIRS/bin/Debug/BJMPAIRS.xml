@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BJMPAIRS
+</name>
+</assembly>
+<members>
+<member name="P:BJMPAIRS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BJMPAIRS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BJMPAIRS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:BJMPAIRS.ModProcedures.LoadAppSettings">
+	<summary>
+ Procedure to load application settings.
+ Called during application start-up.
+ </summary>
+	<remarks>
+ Sept. 23, 2013 10:56 AM - Jeffrey A. Reyes
+ </remarks>
+</member><member name="T:BJMPAIRS.ModProcedures">
+	<summary>
+ Global procedures used throughout the application
+ 
+ </summary>
+	<remarks>
+ Sept. 23, 2013 10:55 AM - Jeffrey A. Reyes
+ </remarks>
+</member><member name="T:BJMPAIRS.ModGlobals">
+	<summary>
+ Global variable used throughout the application
+ </summary>
+	<remarks>
+ Sept. 23, 2013 10:57 AM - Jeffrey A. Reyes
+ </remarks>
+</member>
+</members>
+</doc>

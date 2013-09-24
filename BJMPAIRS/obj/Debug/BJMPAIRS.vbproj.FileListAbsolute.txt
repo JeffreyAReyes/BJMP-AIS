@@ -1,0 +1,13 @@
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\bin\Debug\BJMPAIRS.exe.config
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\bin\Debug\BJMPAIRS.exe
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\bin\Debug\BJMPAIRS.pdb
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\bin\Debug\BJMPAIRS.xml
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.frmMain.resources
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.Resources.resources
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.vbproj.GenerateResource.Cache
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.exe
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.xml
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.pdb
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\bin\Debug\System.Windows.Forms.Ribbon35.dll
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.frmLogin.resources
