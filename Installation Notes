@@ -1,0 +1,27 @@
+Database Server:
+
+1. Download MySQL Server 5.0 or better from MySQL website (http://dev.mysql.com/downloads/mysql/). Make sure you are downloading
+the Generally Available (Releases).
+2. Install the MySQL Server.
+3. Download and install MySQL Workbench (http://dev.mysql.com/downloads/tools/workbench/)
+4. Download the sql file bjmpairs.sql.
+5. Run MySQL Workbench and import bjmpairs.sql into the database server.
+6. Download and install Connector/Net (http://dev.mysql.com/downloads/connector/net/).
+
+BJMP-AIRS:
+
+1. Download the latest zip file (bjmpairs.zip).
+2. Unzipped the file.
+3. Run the bjmpairs.exe file.
+
+Or
+
+1. Download the source files. You need to have Visual Studio 2008 or better to build the source files.
+2. Build the source files using Visual Studi0 2008 or better.
+3. Depending in your build configuration, the bjmpairs.exe is either located in the debug folder or in the release folder.
+
+Download the following libraries to successfully build the project.
+
+1. MySqlBackup.NET - MySQL Backup Solution for C#, VB.NET, ASP.NET (https://mysqlbackupnet.codeplex.com/).
+2. SQL Installer.NET (https://sqlinstaller.codeplex.com/).
+3. Office 2007 Ribbon Active Project (https://officeribbon.codeplex.com/).
