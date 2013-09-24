@@ -87,6 +87,7 @@
       <DependentUpon>frmMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modules\ModDatabase.vb" />
     <Compile Include="Modules\ModGlobals.vb" />
     <Compile Include="Modules\ModProcedures.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
