@@ -35,6 +35,14 @@ BJMPAIRS
 	<remarks>
  Sept. 23, 2013 10:55 AM - Jeffrey A. Reyes
  </remarks>
+</member><member name="T:BJMPAIRS.ModDatabase">
+	<summary>
+ Database procedures.
+ 
+ </summary>
+	<remarks>
+ Sept. 24, 2013 5:40 PM - Jeffrey A. Reyes
+ </remarks>
 </member><member name="T:BJMPAIRS.ModGlobals">
 	<summary>
  Global variable used throughout the application
