@@ -6,7 +6,7 @@
       <Value Profile="(Default)">BJMP-Automated Inmate Registration System</Value>
     </Setting>
     <Setting Name="DatabaseHost" Type="System.String" Scope="User">
-      <Value Profile="(Default)">localhost</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="DatabasePassword" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

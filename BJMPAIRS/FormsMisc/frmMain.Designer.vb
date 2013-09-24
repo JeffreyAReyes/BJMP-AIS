@@ -42,6 +42,9 @@ Partial Class frmMain
         Me.RibbonPanel2 = New System.Windows.Forms.RibbonPanel
         Me.RibbonPanel3 = New System.Windows.Forms.RibbonPanel
         Me.RibbonTab2 = New System.Windows.Forms.RibbonTab
+        Me.RibbonPanel5 = New System.Windows.Forms.RibbonPanel
+        Me.RibbonTab3 = New System.Windows.Forms.RibbonTab
+        Me.RibbonPanel4 = New System.Windows.Forms.RibbonPanel
         Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
@@ -69,13 +72,10 @@ Partial Class frmMain
         Me.cmdTransferCell = New System.Windows.Forms.RibbonButton
         Me.cmdVisitor = New System.Windows.Forms.RibbonButton
         Me.cmdInmateLogs = New System.Windows.Forms.RibbonButton
-        Me.RibbonTab3 = New System.Windows.Forms.RibbonTab
-        Me.RibbonPanel4 = New System.Windows.Forms.RibbonPanel
+        Me.cmdReturnProperty = New System.Windows.Forms.RibbonButton
+        Me.cmdSettings = New System.Windows.Forms.RibbonButton
         Me.cmdContents = New System.Windows.Forms.RibbonButton
         Me.cmdAbout = New System.Windows.Forms.RibbonButton
-        Me.RibbonPanel5 = New System.Windows.Forms.RibbonPanel
-        Me.cmdSettings = New System.Windows.Forms.RibbonButton
-        Me.cmdReturnProperty = New System.Windows.Forms.RibbonButton
         Me.RibbonOrbOptionButton1 = New System.Windows.Forms.RibbonOrbOptionButton
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
@@ -182,7 +182,7 @@ Partial Class frmMain
         Me.DataGridView2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView2.Location = New System.Drawing.Point(3, 3)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(442, 254)
+        Me.DataGridView2.Size = New System.Drawing.Size(442, 257)
         Me.DataGridView2.TabIndex = 1
         '
         'StatusStrip1
@@ -299,6 +299,22 @@ Partial Class frmMain
         '
         Me.RibbonTab2.Panels.Add(Me.RibbonPanel5)
         Me.RibbonTab2.Text = "Settings"
+        '
+        'RibbonPanel5
+        '
+        Me.RibbonPanel5.Items.Add(Me.cmdSettings)
+        Me.RibbonPanel5.Text = ""
+        '
+        'RibbonTab3
+        '
+        Me.RibbonTab3.Panels.Add(Me.RibbonPanel4)
+        Me.RibbonTab3.Text = "Help"
+        '
+        'RibbonPanel4
+        '
+        Me.RibbonPanel4.Items.Add(Me.cmdContents)
+        Me.RibbonPanel4.Items.Add(Me.cmdAbout)
+        Me.RibbonPanel4.Text = ""
         '
         'ToolStripDropDownButton1
         '
@@ -469,16 +485,17 @@ Partial Class frmMain
         Me.cmdInmateLogs.SmallImage = CType(resources.GetObject("cmdInmateLogs.SmallImage"), System.Drawing.Image)
         Me.cmdInmateLogs.Text = "Inmate Logs"
         '
-        'RibbonTab3
+        'cmdReturnProperty
         '
-        Me.RibbonTab3.Panels.Add(Me.RibbonPanel4)
-        Me.RibbonTab3.Text = "Help"
+        Me.cmdReturnProperty.Image = CType(resources.GetObject("cmdReturnProperty.Image"), System.Drawing.Image)
+        Me.cmdReturnProperty.SmallImage = CType(resources.GetObject("cmdReturnProperty.SmallImage"), System.Drawing.Image)
+        Me.cmdReturnProperty.Text = "Return Property"
         '
-        'RibbonPanel4
+        'cmdSettings
         '
-        Me.RibbonPanel4.Items.Add(Me.cmdContents)
-        Me.RibbonPanel4.Items.Add(Me.cmdAbout)
-        Me.RibbonPanel4.Text = ""
+        Me.cmdSettings.Image = CType(resources.GetObject("cmdSettings.Image"), System.Drawing.Image)
+        Me.cmdSettings.SmallImage = CType(resources.GetObject("cmdSettings.SmallImage"), System.Drawing.Image)
+        Me.cmdSettings.Text = "System Settings"
         '
         'cmdContents
         '
@@ -491,23 +508,6 @@ Partial Class frmMain
         Me.cmdAbout.Image = CType(resources.GetObject("cmdAbout.Image"), System.Drawing.Image)
         Me.cmdAbout.SmallImage = CType(resources.GetObject("cmdAbout.SmallImage"), System.Drawing.Image)
         Me.cmdAbout.Text = "About"
-        '
-        'RibbonPanel5
-        '
-        Me.RibbonPanel5.Items.Add(Me.cmdSettings)
-        Me.RibbonPanel5.Text = ""
-        '
-        'cmdSettings
-        '
-        Me.cmdSettings.Image = CType(resources.GetObject("cmdSettings.Image"), System.Drawing.Image)
-        Me.cmdSettings.SmallImage = CType(resources.GetObject("cmdSettings.SmallImage"), System.Drawing.Image)
-        Me.cmdSettings.Text = "System Settings"
-        '
-        'cmdReturnProperty
-        '
-        Me.cmdReturnProperty.Image = CType(resources.GetObject("cmdReturnProperty.Image"), System.Drawing.Image)
-        Me.cmdReturnProperty.SmallImage = CType(resources.GetObject("cmdReturnProperty.SmallImage"), System.Drawing.Image)
-        Me.cmdReturnProperty.Text = "Return Property"
         '
         'RibbonOrbOptionButton1
         '

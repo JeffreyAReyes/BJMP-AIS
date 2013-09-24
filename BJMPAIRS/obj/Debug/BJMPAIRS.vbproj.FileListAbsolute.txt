@@ -11,3 +11,4 @@ E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.xml
 E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.pdb
 E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\bin\Debug\System.Windows.Forms.Ribbon35.dll
 E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.frmLogin.resources
+E:\Projects\VBNet\BJMPAIRS\BJMPAIRS\obj\Debug\BJMPAIRS.frmAppSettings.resources

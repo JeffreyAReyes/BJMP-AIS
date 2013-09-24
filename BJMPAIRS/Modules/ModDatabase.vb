@@ -103,12 +103,12 @@ Module ModDatabase
             boolReturn = True
         Catch ex As MySqlException
 
-            Debug.Print(ex.Message & vbCrLf & ex.StackTrace & vbCrLf & " MySqlException. In SIExecuteSPNonQuery." & strQuery)
+            Debug.Print(ex.Message & vbCrLf & ex.StackTrace & vbCrLf & " MySqlException. In DLExecuteSPNonQuery.")
             boolReturn = False
 
         Catch ex As Exception
 
-            Debug.Print(ex.Message & vbCrLf & ex.StackTrace & vbCrLf & " MySqlException. In SIExecuteSPNonQuery." & strQuery)
+            Debug.Print(ex.Message & vbCrLf & ex.StackTrace & vbCrLf & " MySqlException. In DLExecuteSPNonQuery.")
 
             boolReturn = False
         End Try

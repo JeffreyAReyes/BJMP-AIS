@@ -35,6 +35,32 @@ BJMPAIRS
 	<remarks>
  Sept. 23, 2013 10:55 AM - Jeffrey A. Reyes
  </remarks>
+</member><member name="M:BJMPAIRS.ModDatabase.DLGetDataAndReturnDataSet(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Int32)">
+	<summary>
+ Retrieve data and returns data set.
+ </summary>
+	<param name="connString"></param>
+	<param name="commText"></param>
+	<param name="paramList"></param>
+	<param name="commType"></param>
+	<returns></returns>
+	<remarks>
+ A generic method of executing sql statement. Accepts any number of parameters to pass to the sql statement.
+ Sept. 24, 2013 9:05 PM - Jeffrey A. Reyes
+ </remarks>
+</member><member name="M:BJMPAIRS.ModDatabase.DLExecuteSPNonQuery(System.String,System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})">
+	<summary>
+ Executes a sql statement. Returns boolean, True if successful.
+ </summary>
+	<param name="connString"></param>
+	<param name="commText"></param>
+	<param name="commType"></param>
+	<param name="paramList"></param>
+	<returns></returns>
+	<remarks>
+ A generic method of executing sql statement. Accepts any number of parameters to pass to the sql statement.
+ Sept. 24, 2013 9:19 PM - Jeffrey A. Reyes
+ </remarks>
 </member><member name="T:BJMPAIRS.ModDatabase">
 	<summary>
  Database procedures.
