@@ -33,3 +33,4 @@ Software Libraries used in this project.
 
 1. Office 2007 Ribbon Active Project (https://officeribbon.codeplex.com)
 2. MySqlBackup.NET - MySQL Backup Solution for C#, VB.NET, ASP.NET (https://mysqlbackupnet.codeplex.com)
+3. Krypton components (http://www.componentfactory.com/download).
